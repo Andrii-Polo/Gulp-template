@@ -18,14 +18,13 @@
     font-size: 14px;
 }
 
-.navigation a {
+.navigation__item {
     color: white;
 }
 
 li {
     padding-right: 25px;
 }
-
 .navigation__item--selected {
-    color: yellow;
+    color:#c7b299;
 }
