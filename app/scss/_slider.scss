@@ -1,0 +1,31 @@
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navigation a {
+    color: white;
+}
+
+li {
+    padding-right: 25px;
+}
+
+.navigation__item--selected {
+    color: yellow;
+}
