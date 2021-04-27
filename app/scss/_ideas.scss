@@ -16,4 +16,30 @@
       padding: 0 30px;
     }
   }
+  &__btn-wrapper a{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.64;
+    color: #ffffff;
+    box-shadow: inset 0px -3px 0 0 #736357;
+    background-color: #998675;
+    padding: 21px 39px 21px 37px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+
+    &:hover {
+        padding: 25px 50px;
+        background-color: #18b5a4;  
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;
+    }
+}
+}
+
+.ideas__btn-wrapper {
+  text-align: right;
 }

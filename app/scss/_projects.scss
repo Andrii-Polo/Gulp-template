@@ -2,6 +2,18 @@
   padding: 75px 0 80px;
 
   &__tabs {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
 }
+
+ .col-33 {
+    width: calc(33.3% - 15px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin: 0 0 30px;
+  }
